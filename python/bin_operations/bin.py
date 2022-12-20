@@ -4,6 +4,7 @@ def to_bin(number, count):
     return format(number, 'b').zfill(count)
 
 
-# Число из 2 в 16
-def rgb2hex(r=None, g=None, b=None):
-    return f'#{r:02x}{g:02x}{b:02x}'
+# Число из 10ой в 16ую до 2-х незначащих нулей
+def int2hex(r=None):
+    """Return hex number from int with 2 left filled '0' digits"""
+    return f'#{r:02x}'
