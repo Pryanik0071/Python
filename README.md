@@ -15,12 +15,14 @@
 + `poetry remove`
 + `poetry install`
 + `poetry run <>`
++ `poetry show --tree`
 
 ## Packages
 + **Flake8**
 + **Pytest**
 
 ### Pytest
++ `poetry run pytest` -s - Include prints, -vv - Details.
 + `poetry add pytest-cov` - Установить зависимость
 + `poetry run pytest --cov`
 
