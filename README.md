@@ -1,6 +1,6 @@
 # Python
 
-[![python Actions Status](https://github.com/Pryanik0071/Python/workflows/github-actions-demo/badge.svg)](https://github.com/Pryanik0071/Python/actions)
+[![python Actions Status](https://github.com/Pryanik0071/Python/workflows/test/badge.svg)](https://github.com/Pryanik0071/Python/actions/workflows/test.yml)
 
 ## Pyenv
 + `pyenv versions` - List all versions
