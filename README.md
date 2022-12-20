@@ -1,6 +1,6 @@
 # Python
 ### Hexlet tests and linter status:
-[![Python Actions Status](https://github.com/Pryanik0071/Python/workflows/github-actions-demo/badge.svg)](https://github.com/Pryanik0071/Python/actions)
+[![python Actions Status](https://github.com/Pryanik0071/Python/workflows/github-actions-demo/badge.svg)](https://github.com/Pryanik0071/Python/actions)
 
 ## Pyenv
 + `pyenv versions` - List all versions
