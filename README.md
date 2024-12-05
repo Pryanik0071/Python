@@ -21,6 +21,8 @@
 ## Packages
 + **Flake8**
 + **Pytest**
++ **python-dotenv**
++ **psycopg2-binary**
 
 ### Pytest
 + `poetry run pytest` -s - Include prints, -vv - Details.
@@ -32,3 +34,9 @@
 `to_bin:`
 + Число из 10ой в 2ую с count незначащих нулей
 + Return bin number with count left filled '0' digits
+
+## Django
++ django-admin startproject <name> . - Создать проект с именем name
++ python manage.py runserver - Запустить проект
++ python manage.py makemigrations - Миграции
++ python manage.py migrate - Применить миграции
