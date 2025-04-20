@@ -5,7 +5,9 @@
 + `pyenv versions` - List all versions
 + `pyenv version` - Global version
 + `pyenv install <vers>` - Install vers
-+ `pyenv global|local` - Set pyenv version 
++ `pyenv global|local` - Set pyenv version
+
+### Linux install - https://www.dwarmstrong.org/pyenv/
 
 ## Poetry
 + `poetry config in-project = true` - Create .venv in project folders
