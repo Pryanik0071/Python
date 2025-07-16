@@ -1,0 +1,47 @@
+# main.py
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+@app.get("/")
+def read_root():
+    logger.info("Handling request to root endpoint")
+    return {"message": "Hello, World!"}
+
+------------------------
+
+# logger.py
+import logging
+
+
+def setup_logger():
+    logger = logging.getLogger("my_app")
+    logger.setLevel(logging.DEBUG)
+
+    # Создаем консольный обработчик
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.DEBUG)
+
+    # Задаем формат логов
+    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    ch.setFormatter(formatter)
+
+    # Добавляем обработчик к логгеру
+    logger.addHandler(ch)
+
+    return logger
+
+
+logger = setup_logger()
+
+-----------
+use logger
+
+# main.py (продолжение)
+from app.logger import logger
+
+@app.get("/db")
+def get_db_info():
+    logger.info(f"Connecting to database: {config.db.database_url}")
+    return {"database_url": config.db.database_url}

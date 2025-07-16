@@ -1,0 +1,16 @@
+my_project/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py                 # Основной файл приложения
+│   ├── config.py               # Конфигурация проекта (загрузка .env, dataclasses)
+│   ├── logger.py               # Настройка логирования
+│   ├── models.py               # Модели данных (например, Pydantic-модели)
+│
+├── .black                      # Конфигурация Black
+├── .pre-commit-config.yaml     # Конфигурация pre-commit
+├── .flake8                     # Конфигурация Flake8
+├── .isort.cfg                  # Конфигурация isort
+├── pre-commit                  # Скрипт для pre-commit хуков, который можно запустить через команду `bash pre-commit`
+├── .env                        # Файл для переменных окружения
+└── requirements.txt            # Список зависимостей
