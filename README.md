@@ -47,3 +47,6 @@
 + npm init - Создаёт package.json с описанием проекта
 + npm install "lib" - установить зависимости + добавить в package.json инфу о них. Саму папку с зависимостями в .gitignore
 + npm install --save-dev jest - установить dev зависимости
+
+### Links
++ https://ray.so/prompts/code - промты для ИИ
