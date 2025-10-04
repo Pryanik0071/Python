@@ -42,3 +42,7 @@
 + python manage.py runserver - Запустить проект
 + python manage.py makemigrations - Миграции
 + python manage.py migrate - Применить миграции
+
+## JS
++ npm init - Создаёт package.json с описанием проекта
++ npm install "lib" - установить зависимости + добавить в package.json инфу о них. Саму папку с зависимостями в .gitignore
